@@ -8,5 +8,5 @@ if __name__ == '__main__':
     temperature = temperature_device.get_temperature()
     ramp_status = temperature_device.get_rampstatus()
 
-    print('current temperature is: {:.2f} K ({})'.format(temperature), ramp_status.name)
+    print('current temperature is: {:.2f} K ({})'.format(temperature, ramp_status.name))
 
